@@ -22,12 +22,58 @@ const list = [{
 },{
     label: 'Person',
     image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
-},
-{
+},{
     label: 'Person',
     image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
-},
-]
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},{
+    label: 'Person',
+    image: 'https://www.iconpacks.net/icons/1/free-user-icon-244-thumb.png',
+},]
 
 
 const HomePage = () => {
@@ -38,7 +84,7 @@ const HomePage = () => {
     }
     return (
         <>
-            <div style={{ display: 'flex', background:"black" }}>
+            <div style={{ background:"black", display: 'flex', justifyContent:"space-around", flexWrap:"wrap" }}>
                 {_renderList()}
             </div>
             
